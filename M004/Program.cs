@@ -163,13 +163,6 @@
 			}
 
 			#endregion
-
-			//Strg + .: Schnellaktionen unter dem Cursor anzeigen
-			//Strg + Leertaste: Vorschläge öffnen
-			//Strg + K, Strg + D: Code formatieren
-			//Strg + K, Strg + C: Codeblock auskommentieren
-			//Strg + K, Strg + U: Codeblock einkommentieren
-			//Alt + Pfeiltaste: Derzeitige Zeile verschieben
 		}
 	}
 
