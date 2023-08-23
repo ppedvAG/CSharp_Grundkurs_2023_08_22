@@ -1,4 +1,5 @@
 ﻿using M006.Data; //Person importieren über Using
+using System.Net.Http.Headers;
 
 namespace M006
 {
@@ -32,7 +33,7 @@ namespace M006
 			Person ag = new Person("", "", 50, 750000);
 			Person jo = new Person("", "", 30, 123456, Rolle.Organisator);
 
-			Kurs k = new Kurs(Standort.Gemischt, lk, rs, ag, jo);
+			Kurs k = new Kurs("C# Grundkurs", Standort.Gemischt, lk, rs, ag, jo);
 			foreach (Person tn in k.Teilnehmer)
 			{
 				switch (tn.Rolle)
@@ -48,6 +49,7 @@ namespace M006
                         break;
 				}
 			}
+			k.TeilnehmerHinzufuegen(p, p2, p3);
 		}
 	}
 }
