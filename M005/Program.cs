@@ -1,4 +1,6 @@
-﻿namespace M005
+﻿using System.Net;
+
+namespace M005
 {
 	internal class Program
 	{
@@ -103,5 +105,13 @@
 			return; //Aus Funktion herausspringen / Funktion beenden (häufig mit einer if)
             Console.WriteLine(z);
         }
+
+		/// <summary>
+		/// Hier fixe Werte für den Parameter verlangen
+		/// </summary>
+		static void PrintTag(DayOfWeek tag)
+		{
+
+		}
 	}
 }
