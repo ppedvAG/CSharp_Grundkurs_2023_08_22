@@ -8,3 +8,5 @@ Console.WriteLine("Hello, World!");
 //Strg + K, Strg + U: Codeblock einkommentieren
 //Alt + Pfeiltaste: Derzeitige Zeile verschieben
 //Strg + R + R: Feld umbenennen, wird überall umbenannt
+//F12: Zu dem Member unter dem Cursor springen
+//Strg + D: Derzeitige Zeile kopieren
