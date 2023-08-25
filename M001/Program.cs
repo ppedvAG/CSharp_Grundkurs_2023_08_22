@@ -1,4 +1,6 @@
-﻿//Strg + .: Schnellaktionen unter dem Cursor anzeigen
+﻿Console.WriteLine();
+
+//Strg + .: Schnellaktionen unter dem Cursor anzeigen
 //Strg + Leertaste: Vorschläge öffnen
 //Strg + K, Strg + D: Code formatieren
 //Strg + K, Strg + C: Codeblock auskommentieren
